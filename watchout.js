@@ -3,15 +3,7 @@ var settings = {
   h: window.innerHeight,
   r: 25,
   n: 30,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
   duration: 4500
-=======
-  duration: 10000
->>>>>>> Stashed changes
-=======
-  duration: 10000
->>>>>>> Stashed changes
 };
 
 
