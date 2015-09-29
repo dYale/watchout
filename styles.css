@@ -1,5 +1,64 @@
-/* your beautiful css styling goes here! */
+body {
+  margin: 0;
+  font-family: helvetica;
+  position: relative;
+}
 
-/* Note: an asteroid image is included in this repo.
-Feel free to use it if you like. */
+.options{
+	line-height: 33px;
+    font-size: 25px;
+	float:left;
+	top: 20px;
+	left: 20px;
+	padding: 5px;
+	border-radius: 3px;
+	position: absolute;
+	width: 250px;
+	height: 100px;
+}
 
+.diff{
+	opacity: 0.8;
+	cursor: pointer;
+	padding: 5px;
+	margin: 2px;
+  line-height: 33px;
+  font-size: 25px;
+  float: left;
+  border-radius: 15px;
+  border: 15px;
+}
+
+.diff:hover{
+	background-color: #009933;
+}
+
+.mouse {
+  position: absolute;
+}
+
+.asteroid{
+  background-size: 100% 100%;
+  position: absolute;
+}
+
+.scoreboard{
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.scoreboard div {
+	opacity: 0.8;
+	padding: 5px;
+	margin: 2px;
+  line-height: 33px;
+  font-size: 25px;
+  float: right;
+  border-radius: 15px;
+  border: 15px;
+}

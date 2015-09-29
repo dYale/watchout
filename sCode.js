@@ -3,7 +3,7 @@ var settings = {
   h: window.innerHeight,
   r: 25,
   n: 30,
-  duration: 4500
+  duration: 10000
 };
 
 
